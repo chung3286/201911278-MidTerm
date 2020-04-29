@@ -3,6 +3,7 @@ import java.io.*;
 import java.util.*;
 import org.json.simple.*;
 import org.json.simple.parser.*;
+//import midterm.problem2.*;
 
 public class MidTerm_201911278 {
 	public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class MidTerm_201911278 {
 			
 			System.out.print("Enter the keyword you are looking for : ");
 			String find = scan.nextLine();
-			
+		
 			for(int i=0; i<infoArray.size(); i++) {
 				JSONObject itemObject = (JSONObject) infoArray.get(i);
 				str = itemObject.values().toString();
